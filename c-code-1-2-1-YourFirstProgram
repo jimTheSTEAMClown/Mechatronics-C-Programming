@@ -1,6 +1,0 @@
-#include <stdio.h>
-int main(void)
-{
-  puts("Hi, I'm your first Program");
-  return(0);
-}
