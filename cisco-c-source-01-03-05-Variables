@@ -1,0 +1,15 @@
+// This code is to show that the default assignment of a variable, 
+// is compiler dependent, and the default could be 0 or something else... 
+// like 134514688 -- what is that number?
+// ------------------------------------------------------------------------------------------
+#include <stdio.h>
+
+int main(void) {
+  int variableWithValueAssigned = 3;
+  int variableWithValueNotAssigned;
+  printf("this is the value of variableWithValueAssigned \t ");
+  printf("%d", variableWithValueAssigned);
+  printf("\nthis is the value of variableWithValueNotAssigned \t ");
+  printf("%d", variableWithValueNotAssigned);
+return 0;
+}
