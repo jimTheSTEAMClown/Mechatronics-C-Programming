@@ -1,0 +1,15 @@
+// Example program- showing the difference between int and float math is 'significant'
+#include <stdio.h>
+
+int main(void)
+{
+    puts("Hi, I'm a program assigning variables using int and float,");
+    puts("showing the difference is 'significant'");
+    int i; 
+    float x; 
+    i = 10 / 4; 
+    x = 10.0 / 4.0; 
+    printf("the value of 'i' is \t%d\n",i);
+    printf("the value of 'x' is \t%f\n",x);
+return(0);
+}
