@@ -1,0 +1,22 @@
+// ============================================================================
+// Source: STEAM Clown - www.steamclown.org 
+// GitHub: https://github.com/jimTheSTEAMClown/Mechatronics-C-Programming
+// Hacker: Jim Burnham - STEAM Clown, Engineer, Maker, Propmaster & Adrenologist 
+// This example code is licensed ubder the CC BY-NC-SA 3.0.
+// https://creativecommons.org/licenses/by-nc-sa/3.0/
+// Create Date:			08/30/2017 
+// Design Name:			template
+// Description:			template for creating new C programs
+// Dependencies: 
+// Revision: 
+// Revision 0.02 - Updated for SVCTE Mechatronics Class
+// Revision 0.01 - Created 08/30/2017
+// Additional Comments: 
+//
+// ============================================================================
+#include <stdio.h>
+int main(void)
+{
+  puts("Hi, I'm your first Program");
+  return(0);
+}
