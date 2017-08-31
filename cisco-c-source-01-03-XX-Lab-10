@@ -1,0 +1,27 @@
+//  Lab 1.3.6.5 Variables: part 5
+//  Objectives
+//    Fixing errors in a program
+//    Variable names
+//    Integer numbers
+//    Printing on screen
+//  Scenario
+//    Write a program which computes and prints the sum of the days in all 
+//    four quarters of the current year. Use variables to store these four
+//    values.
+//  
+//    If you want, you can use code from a previous task, but you will learn 
+//    more if you write the code from the beginning.
+
+// Write your code here.  You need to include any libraries, add your "main()" routine, 
+//  and all the other stuff a program needs.  Check out your old programs.
+
+//  Example output
+//    Days in Q1 of the current year: 91
+//    Days in Q2 of the current year: 91
+//    Days in Q3 of the current year: 92
+//    Days in Q4 of the current year: 92
+//  Example output
+//    Days in Q1 of the current year: 90
+//    Days in Q2 of the current year: 91
+//    Days in Q3 of the current year: 92
+//    Days in Q4 of the current year: 92
