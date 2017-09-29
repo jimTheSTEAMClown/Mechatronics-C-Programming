@@ -1,0 +1,26 @@
+// Example program
+#include <stdio.h>
+int endOfWorld = 1;
+int timeMachine = 0;
+int powerFist = 0;
+
+int main()
+{
+    if(endOfWorld == 0)
+    {
+        puts("The END is near...");
+    }
+    else if((timeMachine == 1) || (powerFist == 1))
+    {
+        if(endOfWorld == 1)
+        {
+            endOfWorld = !endOfWorld;
+        }
+        puts("Luck, you escaped...");
+        printf("endOfWorld = %d", endOfWorld);
+    }
+    else
+    {
+        puts("Sorry Dude...");
+    }
+}
