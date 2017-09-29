@@ -1,0 +1,20 @@
+// This code is to show how the logical operator && works 
+// Change the value of "lifeForce" from 9 to say 42... 
+// Both varibles that are in the IF evaluation need to be "true" for the IF to be evaluated as "true"
+// ------------------------------------------------------------------------------------------
+#include <stdio.h>
+int endOfWorld = 1;
+int lifeForce = 9;
+
+int main()
+{
+    if(endOfWorld == 1 && lifeForce > 10)
+    {
+    	// your code here
+        puts("Hello, Welcome to the worlds end, Good luck");
+    }
+    else
+    {
+        puts("sorry dude...");
+    }
+}
