@@ -1,0 +1,22 @@
+// This code is to show how the logical operator || works 
+// Change the value of "timeMachine" or powerFist from 0 to 1... 
+// really any number other than 0 
+// Only one varibles that are in the IF evaluation of the "OR" to be "true" 
+// for the IF to be evaluated as "true"
+// ------------------------------------------------------------------------------------------
+#include <stdio.h>
+int endOfWorld = 1;
+int timeMachine = 0;
+int powerFist = 0;
+
+int main()
+{
+    if(((endOfWorld == 1) && (timeMachine == 1)) || ((endOfWorld == 1) && (powerFist == 1)))
+    {
+        puts("Luck, you escaped...");
+    }
+    else
+    {
+        puts("Sorry Dude...");
+    }
+}
