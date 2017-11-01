@@ -1,12 +1,12 @@
 // Example program
 #include <stdio.h>
-int endOfWorld = 1;
+int endOfWorld = 0;
 int timeMachine = 0;
 int powerFist = 0;
 
 int main()
 {
-    if(endOfWorld == 0)
+    if(!endOfWorld)
     {
         puts("The END is near...");
     }
