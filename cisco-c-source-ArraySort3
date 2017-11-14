@@ -1,0 +1,40 @@
+#include <stdio.h>
+    int  number, i, aux;
+	int numbers[11];
+// input data = 44 13 6 15 33 3 2 66 19 1 99
+  main()     /* program which introduces keyboard input */
+  {
+    // input data = 44 13 6 15 33 3 2 66 19 1 99
+		numbers[0] = 44;
+		numbers[1] = 13;
+		numbers[2] = 6;
+		numbers[3] = 15;
+		numbers[4] = 33;
+		numbers[5] = 3;
+		numbers[6] = 2;
+		numbers[7] = 66;
+		numbers[8] = 19;
+		numbers[9] = 1;
+		numbers[10] = 99999; // this is the large number to pad my array... dumb, but it fixed an issue
+
+    printf("\n Initial Array Values\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}
+
+    for(i=0;i<10;i++)
+		{
+      if( numbers[i] > numbers[i + 1]) {
+          /* if we went here it means that we have to swap the elements */
+         aux = numbers[i];
+         numbers[i] = numbers[i + 1];
+         numbers[i + 1] = aux;
+			}
+    }
+		printf("\n first time through Sort Loop\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}
+  }
