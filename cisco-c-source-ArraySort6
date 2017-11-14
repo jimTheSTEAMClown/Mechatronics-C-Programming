@@ -1,0 +1,194 @@
+#include <stdio.h>
+    int  number, i, aux;
+	int numbers[11];
+// input data = 44 13 6 15 33 3 2 66 19 1 99
+    main()     /* program which introduces keyboard input */
+    {
+		// input data = 44 13 6 15 33 3 2 66 19 1 99
+		for(i=0;i<10;i++)
+		{
+			scanf("%d", &number);
+			numbers[i] = number;
+			printf(" %d=%d\t", i,numbers[i]);
+		}
+		numbers[10] = 99999; // this is the large number to pad my array... dumb, but it fixed an issue
+
+    for(i=0;i<10;i++)
+		{
+    			 	if( numbers[i] > numbers[i + 1]) {
+				        /* if we went here it means that we have to swap the elements */
+				       aux = numbers[i];
+				       numbers[i] = numbers[i + 1];
+				       numbers[i + 1] = aux;
+					}
+    	}
+		numbers[10] = 99999; // this is the large number to pad my array... dumb, but it fixed an issue
+
+    printf("\n Initial Array Values\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}
+
+     	for(i=0;i<10;i++)
+		{
+    			 	if( numbers[i] > numbers[i + 1]) {
+				        /* if we went here it means that we have to swap the elements */
+				       aux = numbers[i];
+				       numbers[i] = numbers[i + 1];
+				       numbers[i + 1] = aux;
+					}
+    	}
+		printf("\n first time through Sort Loop\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}
+
+
+    for(i=0;i<10;i++)
+		{
+	    	if( numbers[i] > numbers[i + 1]) {
+		    /* if we went here it means that we have to swap the elements */
+		    aux = numbers[i];
+		    numbers[i] = numbers[i + 1];
+		    numbers[i + 1] = aux;
+			}
+    }
+
+    printf("\n 2nd time through Sort Loop\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}
+
+    for(i=0;i<10;i++)
+		{
+	    	if( numbers[i] > numbers[i + 1]) {
+		    /* if we went here it means that we have to swap the elements */
+		    aux = numbers[i];
+		    numbers[i] = numbers[i + 1];
+		    numbers[i + 1] = aux;
+			}
+    }
+
+    printf("\n 3rd time through Sort Loop\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}            
+
+    for(i=0;i<10;i++)
+		{
+	    	if( numbers[i] > numbers[i + 1]) {
+		    /* if we went here it means that we have to swap the elements */
+		    aux = numbers[i];
+		    numbers[i] = numbers[i + 1];
+		    numbers[i + 1] = aux;
+			}
+    	}
+
+    printf("\n 4th time through Sort Loop\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}            
+
+    for(i=0;i<10;i++)
+		{
+	    	if( numbers[i] > numbers[i + 1]) {
+		    /* if we went here it means that we have to swap the elements */
+		    aux = numbers[i];
+		    numbers[i] = numbers[i + 1];
+		    numbers[i + 1] = aux;
+			}
+    	}
+
+    printf("\n 5th time through Sort Loop\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		} 
+
+
+    for(i=0;i<10;i++)
+		{
+	    	if( numbers[i] > numbers[i + 1]) {
+		    /* if we went here it means that we have to swap the elements */
+		    aux = numbers[i];
+		    numbers[i] = numbers[i + 1];
+		    numbers[i + 1] = aux;
+			}
+    	}
+
+    printf("\n 6th time through Sort Loop\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}
+
+
+    for(i=0;i<10;i++)
+		{
+	    	if( numbers[i] > numbers[i + 1]) {
+		    /* if we went here it means that we have to swap the elements */
+		    aux = numbers[i];
+		    numbers[i] = numbers[i + 1];
+		    numbers[i + 1] = aux;
+			}
+    	}
+
+    printf("\n 7th time through Sort Loop\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}
+
+    for(i=0;i<10;i++)
+		{
+	    	if( numbers[i] > numbers[i + 1]) {
+		    /* if we went here it means that we have to swap the elements */
+		    aux = numbers[i];
+		    numbers[i] = numbers[i + 1];
+		    numbers[i + 1] = aux;
+			}
+    }
+
+    printf("\n 8th time through Sort Loop\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}
+ 
+    for(i=0;i<10;i++)
+		{
+	    	if( numbers[i] > numbers[i + 1]) {
+		    /* if we went here it means that we have to swap the elements */
+		    aux = numbers[i];
+		    numbers[i] = numbers[i + 1];
+		    numbers[i + 1] = aux;
+			}
+    }
+
+    printf("\n 9th time through Sort Loop\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}
+
+    	for(i=0;i<10;i++)
+		{
+	    	if( numbers[i] > numbers[i + 1]) {
+		    /* if we went here it means that we have to swap the elements */
+		    aux = numbers[i];
+		    numbers[i] = numbers[i + 1];
+		    numbers[i + 1] = aux;
+			}
+    }
+
+    printf("\n 10th time through Sort Loop\n");
+		for(i=0;i<10;i++)
+		{
+			printf(" %d=%d\t", i,numbers[i]);
+		}
+   }
