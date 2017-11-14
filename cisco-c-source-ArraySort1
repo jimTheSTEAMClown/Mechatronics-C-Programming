@@ -1,0 +1,32 @@
+#include <stdio.h>
+   int  number, i, aux;
+	int numbers[11];
+// input data = 44 13 6 15 33 3 2 66 19 1 99
+    main()     /* program which introduces keyboard input */
+    {
+      // input data = 44 13 6 15 33 3 2 66 19 1 99
+      numbers[0] = 44;
+      numbers[1] = 13;
+      numbers[2] = 6;
+      numbers[3] = 15;
+      numbers[4] = 33;
+      numbers[5] = 3;
+      numbers[6] = 2;
+      numbers[7] = 66;
+      numbers[8] = 19;
+      numbers[9] = 1;
+      numbers[10] = 99999; // this is the large number to pad my array... dumb, but later tell me why?
+      
+      printf("Initial Array Values\n");
+      printf("0=%d\t", numbers[0]);
+      printf("1=%d\t", numbers[1]);
+      printf("2=%d\t", numbers[2]);
+      printf("3=%d\t", numbers[3]);
+      printf("4=%d\t", numbers[4]);
+      printf("5=%d\t", numbers[5]);
+      printf("6=%d\t", numbers[6]);
+      printf("7=%d\t", numbers[7]);
+      printf("8=%d\t", numbers[8]);
+      printf("9=%d\t", numbers[9]);
+      printf("\n");
+   }
