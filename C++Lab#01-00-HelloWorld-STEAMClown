@@ -1,0 +1,23 @@
+// ============================================================================
+// Source: STEAM Clown - www.steamclown.org 
+// GitHub: https://github.com/jimTheSTEAMClown/C++
+// Hacker: Jim Burnham - STEAM Clown, Engineer, Maker, Propmaster & Adrenologist 
+// This example code under the GNU Lesser General Public License v3.0
+// and any docs and lesson examples is licensed under the CC BY-NC-SA 3.0.
+// https://creativecommons.org/licenses/by-nc-sa/3.0/
+// Create Date:			11/01/2010 
+// Design Name:			C++Lab#1-HelloWorld
+// Description:     First Lab to make sure tools are installed or configured correctly
+// Dependencies: 
+// Revision: 
+// Revision 0.02 - Updated for SVCTE Mechatronics Class 2018 - 11/01/2010
+// Revision 0.01 - Created 11/01/2010
+// Additional Comments: 
+//
+// ============================================================================
+#include <stdio.h>
+int main(void)
+{
+  puts("Hi, I'm your first Program");
+  return(0);
+}
