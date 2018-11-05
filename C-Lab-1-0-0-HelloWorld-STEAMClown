@@ -6,10 +6,11 @@
 // and any docs and lesson examples is licensed under the CC BY-NC-SA 3.0.
 // https://creativecommons.org/licenses/by-nc-sa/3.0/
 // Create Date:			11/01/2010 
-// Design Name:			C++Lab#1-HelloWorld
-// Description:     First Lab to make sure tools are installed or configured correctly
+// Design Name:			C-Lab-1-0-0-HelloWorld
+// Description:     First C++ Lab to make sure tools are installed or configured correctly
 // Dependencies: 
 // Revision: 
+// Revision 0.02 - Updated name to match - 11/04/2010
 // Revision 0.02 - Updated for SVCTE Mechatronics Class 2018 - 11/01/2010
 // Revision 0.01 - Created 11/01/2010
 // Additional Comments: 
