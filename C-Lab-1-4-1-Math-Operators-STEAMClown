@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main(void) {
+int i, j, k;
+printf("In the STDIN Tab Enter numbers for i and j\n");
+cout << "Enter j: ";
+cin >> i;
+cout << "Enter j: ";
+cin >> j;
+cout << endl;
+printf("i=%d j=%d k=%d\n",i,j,k);
+// increment i by 2
+// decrement j by i
+// divide i by j giving k
+// increment k by k
+// decrement k by 1
+// assign k modulo i to j
+// increment k by k added to i
+// increment k by k divided by j
+// assign k times k times k to k
+// increment k by i times j
+// change the cout to a printf()
+cout << k << endl;
+return 0;
+}
