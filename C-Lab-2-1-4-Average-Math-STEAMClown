@@ -13,7 +13,8 @@ using namespace std;
   int number7 = 17;
   int number8 = 65;
 
-  // what other variables do you need? Something to count?  
+  // what other variables do you need? Something to count? 
+  
 int main(void) {
     // put your code here.  Calculate the sum, avarage(mean) and output the mean as a float number
     
