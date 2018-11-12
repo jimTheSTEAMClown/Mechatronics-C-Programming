@@ -4,12 +4,12 @@ using namespace std;
 int main(void) {
 float pi = 3.14159265359;
 float x,y;
-cout << "Enter value for x: ";
+cout << "Enter value for x: " << endl;;
 cin >> x;
-cout << "x = " << x;
+cout << "x = " << x << endl;;
 
 // put your code here
 
-cout << "y = " << y;
+cout << "y = " << y << endl;;
 return 0;
 }
