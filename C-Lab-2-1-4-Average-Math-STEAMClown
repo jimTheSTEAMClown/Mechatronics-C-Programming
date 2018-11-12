@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+// Global Variables
+  float mean; // typical Average value
+  float mode, median; // 2 other Average values
+  int number1 = 9;
+  int number2 = 21;
+  int number3 = 23;
+  int number4 = 44;
+  int number5 = 30;
+  int number6 = 82;
+  int number7 = 17;
+  int number8 = 65;
+
+  // what other variables do you need? Something to count?  
+int main(void) {
+    // put your code here.  Calculate the sum, avarage(mean) and output the mean as a float number
+    
+    // extra Credit: calculate the mode and median    
+return 0;
+}
