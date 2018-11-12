@@ -18,6 +18,8 @@ using namespace std;
 int main(void) {
     // put your code here.  Calculate the sum, avarage(mean) and output the mean as a float number
     
+    printf("The Mean Average = %f\n",mean );
+    
     // extra Credit: calculate the mode and median    
 return 0;
 }
