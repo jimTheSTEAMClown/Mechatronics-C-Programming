@@ -6,7 +6,10 @@ float pi = 3.14159265359;
 float x,y;
 cout << "Enter value for x: ";
 cin >> x;
+cout << "x = " << x;
+
 // put your code here
+
 cout << "y = " << y;
 return 0;
 }
